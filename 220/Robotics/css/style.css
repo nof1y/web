@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Robot";
+    src: url(../fonts/RubikMoonrocks-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: "Robot";
+}
+
+.container { 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2b2f4a;
+    padding: 20px 0;
+}
+
+.headerBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
