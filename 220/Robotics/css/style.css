@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Robot";
-    src: url(../fonts/RubikMoonrocks-Regular.ttf);
+    src: url(../fonts/ChakraPetch-Medium.ttf);
 }
 
 * {
@@ -26,4 +26,143 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 120px;
+}
+
+nav a { 
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+nav a:hover {
+    transform: translateY(5px);
+}
+
+main {
+    background: url(../img/banner-bg.jpg) center;
+    background-size: cover;
+    height: 370px;
+    color: white;
+}
+
+.mainText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+
+.mainText h2 {
+    font-size: 40px;
+}
+
+.mainText span {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.cards h2 {
+    font-size: 34px;
+}
+
+.cardsBlock {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    box-shadow: -2px 0px 8px 2px rgb(190, 190, 190);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.card p {
+    padding: 10px 0;
+}
+
+.card a {
+    display: inline-block;
+    background-color: #151c39;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #151c39;
+}
+
+.card a:hover {
+    background-color: transparent;
+    color: #151c39;
+}
+
+footer {
+    background: url(../img/footer-bg.jpg) center;
+    background-size: cover;
+    height: 350px;
+    color: white;
+}
+
+.footerBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.footerBlock address {
+    height: 100px;
+    width: 400px;
+}
+
+.footerBlock form {
+    padding: 15px 0;
+}
+
+.footerBlock input {
+    border-radius: 10px;
+    height: 40px;
+    width: 50%;
+}
+
+.footerBlock button {
+    border-radius: 10px;
+    height: 40px;
+    width: 20%;
+    cursor: pointer;
+}
+
+.footerBlock nav {
+    display: flex;
+    gap: 5px;
+}
+
+.footerBlock img {
+    height: 75px;
+    width: 75px;
 }
