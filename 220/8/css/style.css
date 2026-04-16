@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+}
+
+.line {
+    background-color: red;
+    height: 80px;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav .pages {
+    display: flex;
+    align-items: center;
+    
+    gap: 20px
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    transform: scale(1.2);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.mainTxt {
+    width: 45%;
+}
+
+.mainTxt h2 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.mainTxt p {
+    font-size: 26px;
+    text-align: justify;
+    line-height: 1.2;
+    padding: 20px 0;
+}
+
+.mainTxt a {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    padding: 25px 0px;
+    border: 4px solid red;
+    width: 260px;
+}
+
+.mainTxt a:hover {
+    transform: scale(1.1);
+    background-color: white;
+    border: 4px solid red;
+}
+
+.mainImg {
+    height: 450px;
+    width: 600px;
+    background-color: rgb(50, 50, 50);
+}
+
+.circles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circleImg {
+    width: 250px;
+    height: 120px;
+    background-color: red;
+}
+
+.main2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.card {
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+    
+    height: 420px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card h2 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.card p {
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.card a {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: red;
+    border: 4px solid red;
+    margin-top: auto;
+}
+
+.card a:hover {
+    background-color: white;
+    color: red;
+    border: 4px solid red;
+}
+
+
+.cardImg {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(50, 50, 50);
+    justify-self: center;
+}
+
+footer h2 {
+    color: white;
+}
+
+footer{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
