@@ -10,10 +10,28 @@
     text-decoration: none;
     transition: 0.5s;
     font-family: '220';
+    scroll-behavior: smooth;
 }
 
 body {
     background-color: #ddd;
+}
+
+@media screen and (max-width:1000px) {
+    body {
+        background-color: aqua;
+    }
+}
+
+@media screen and (max-width:500px) {
+    body {
+        background-color: #551a8b;
+    }
+
+    section img {
+        width: 80px;
+        height: 80px;
+    }
 }
 
 .container {
@@ -166,3 +184,26 @@ video {
     box-shadow: 0 0 5px gray;
     color: white;
 }
+
+.top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 70px;
+    height: 70px;
+    background-color: #551F8B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.top img {
+    width: 40px;
+    height: 40px;
+}
+
+.top img:hover {
+    transform: scale(1.15);
+}
+
