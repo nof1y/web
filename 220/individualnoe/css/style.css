@@ -69,16 +69,22 @@ header {
 }
 
 .main {
-    margin-top: 90px;
+    margin-top: 85px;
     height: 95vh;
     position: relative;
-    background-image: url(../image/ronalduUdar.jpg);
+    background: url(../image/ronalduUdar.jpg) center;
+    background-size: cover;
+    height: 825px;
+    color: white;
 }
 
 .main img {
     background-color: white;
     border-radius: 50%;
     border: 0px solid black;
+    width: 125px;
+    position: relative;
+
 }
 
 .mainTxt {
