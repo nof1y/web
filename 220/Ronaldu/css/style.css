@@ -209,7 +209,8 @@ main {
 }
 
 .aboutBlock {
-    margin: 80px auto;
+    padding-top: 60px;
+    margin: 0px auto;
 }
 
 .aboutContent {
@@ -265,7 +266,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    margin: 80px auto;
+    padding: 100px;
 }
 
 .promo {
@@ -307,7 +308,8 @@ main {
 }
 
 .careerBlock {
-    margin: 80px auto;
+    padding: 60px;
+    margin: 0px auto;
 }
 
 .careerTimeline {
@@ -348,7 +350,6 @@ main {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(85, 31, 139, 0.7)), url(../images/email.jpg) center fixed;
     background-size: cover;
     padding: 100px 40px;
-    margin: 100px auto;
     border-radius: 30px;
     box-shadow: 0 0 10px gray;
     color: white;
@@ -453,7 +454,6 @@ footer {
     transform: scale(1.15);
 }
 
-/* Project Page Styles */
 .projectMain {
     min-height: 100vh;
     padding: 40px 0;
@@ -500,46 +500,6 @@ footer {
     color: #555;
 }
 
-.gifContainer.animated {
-    animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-    0%, 100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.02);
-    }
-}
-
-.animationOverlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.siuuText {
-    font-size: 72px;
-    font-weight: bold;
-    color: white;
-    text-shadow: 3px 3px 6px rgba(0,0,0,0.8);
-    animation: siuuuAnim 1.5s ease-in-out infinite;
-}
-
-@keyframes siuuuAnim {
-    0%, 100% {
-        opacity: 0;
-        transform: translate(-50%, -50%) scale(0.5);
-    }
-    50% {
-        opacity: 1;
-        transform: translate(-50%, -50%) scale(1.2);
-    }
-}
-
 .creativeBlock {
     margin: 80px 0;
 }
@@ -549,56 +509,6 @@ footer {
     font-size: 36px;
     margin-bottom: 40px;
     color: #551a8b;
-}
-
-.galleryGrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-.galleryItem {
-    position: relative;
-    overflow: hidden;
-    border-radius: 15px;
-    cursor: pointer;
-}
-
-.galleryItem img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    transition: 0.5s;
-}
-
-.galleryItem .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(85, 26, 139, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: 0.5s;
-}
-
-.galleryItem .overlay p {
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    padding: 20px;
-}
-
-.galleryItem:hover img {
-    transform: scale(1.1);
-}
-
-.galleryItem:hover .overlay {
-    opacity: 1;
 }
 
 .statsBlock {
@@ -613,8 +523,9 @@ footer {
 }
 
 .statsGrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: flex;
+    justify-self: center;
+    align-self: center;
     gap: 30px;
 }
 
@@ -766,20 +677,6 @@ footer {
     transition: 1s;
 }
 
-.projectFeatures {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.projectFeatures li {
-    padding: 15px 20px !important;
-    background-color: rgba(85, 26, 139, 0.1);
-    border-radius: 10px;
-    font-size: 16px !important;
-}
-
 .contactInfo {
     background-color: rgba(85, 26, 139, 0.1);
     padding: 30px;
@@ -822,7 +719,7 @@ footer {
     }
     
     .promo {
-        flex-direction: column !important;
+        flex-direction: column;
     }
     
     .promo img {
