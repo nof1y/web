@@ -39,13 +39,13 @@ body {
 
 @media screen and (max-width:1000px) {
     body {
-        background-color: aqua;
+        background-color: rgb(181, 168, 189);
     }
 }
 
 @media screen and (max-width:500px) {
     body {
-        background-color: #551a8b;
+        background-color: #ceaafc;
     }
     section img {
         width: 80px;
@@ -500,17 +500,6 @@ footer {
     color: #555;
 }
 
-.creativeBlock {
-    margin: 80px 0;
-}
-
-.creativeBlock h2 {
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 40px;
-    color: #551a8b;
-}
-
 .statsBlock {
     margin: 80px 0;
 }
@@ -524,8 +513,9 @@ footer {
 
 .statsGrid {
     display: flex;
-    justify-self: center;
-    align-self: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
